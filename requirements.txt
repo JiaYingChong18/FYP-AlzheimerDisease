@@ -7,3 +7,4 @@ pillow
 altair
 opencv-python
 huggingface_hub
+pandas
