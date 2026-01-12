@@ -5,6 +5,6 @@ numpy
 matplotlib
 pillow
 altair
-opencv-python
 huggingface_hub
 pandas
+opencv-python-headless
