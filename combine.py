@@ -1,4 +1,3 @@
-from turtle import pd
 import streamlit as st
 import torch
 import torch.nn as nn
@@ -14,13 +13,12 @@ import json
 from PIL import Image
 from torchvision import models, transforms
 import pandas as pd
-import pandas as pd
 import altair as alt
-import streamlit as st
 from io import BytesIO
-from matplotlib import gridspec          # Fixes the 'gridspec' NameError
+from matplotlib import gridspec
 import matplotlib.patches as patches
 from huggingface_hub import hf_hub_download
+
 # =============================================================================
 # 1. CONFIGURATION
 # =============================================================================
