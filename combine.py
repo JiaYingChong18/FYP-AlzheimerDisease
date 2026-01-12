@@ -451,10 +451,8 @@ if page == "💡Introduction":
     st.subheader("🧬 Why Does AD Occur?")
     col1, col2 = st.columns([1, 1.5])
     with col1:
-        st.image(
-            "C:\\Users\\User\\Downloads\\FYP Deployment\\brain_position.png",
-            width=650
-        )
+        st.image("assets/brain_position.png", width=650)
+
     with col2:
         st.markdown("""The disease is characterized by specific pathological changes in the brain that begin years before symptoms appear:""")
         st.markdown("""
